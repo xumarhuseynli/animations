@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 70%;
+    height: 500px;
+    margin-left: 250px;
+    margin-top: 100px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+     background-color: blueviolet;
+   
+}
+.box:hover{
+    transform:scale(1.1);
+   
+}

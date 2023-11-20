@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+ text-align: center;
+}
+.box1{
+   margin: auto;
+    height: 80px;
+    width: 500px;
+    border: 2px solid blue;
+    position: relative;
+}
+.box2{
+    width: 300px;
+    height: 80px;
+    background-color: blue;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation-name: animated;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.box3{
+    margin: auto;
+     height: 80px;
+     width: 500px;
+     border: 2px solid blue;
+     position: relative;
+}
+.box4{
+    width: 300px;
+    height: 80px;
+    background-color: blue;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation-name: animated;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes animated{
+    0%{
+        width: 30opx;
+    }
+    100%{
+        width: 400px;
+    }
+}

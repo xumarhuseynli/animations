@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.boxs{
+    
+    
+}
+.box1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+display: flex; 
+align-content: center;
+justify-content: center;
+}
+
+
+.box2{
+    display: flex; 
+align-content: center;
+justify-content: center;
+
+}
+.box11{
+    width: 10px;
+    height: 20px;
+    background-color: mediumseagreen;
+    display: inline-block;
+    margin: 10px;
+    transition: transform 3s ease-in-out;
+
+}
+.box12{
+    width: 10px;
+    height: 30px;
+    background-color: mediumseagreen;
+    display: inline-block;
+    margin: 10px;
+    transition: transform 3s ease-in-out;
+
+}
+
+.box13{
+    width: 10px;
+    height: 40px;
+    background-color: mediumseagreen;
+    display: inline-block;
+    margin: 10px;
+    transition: transform 3s ease-in-out;
+
+
+}
+.box14{
+    width: 10px;
+    height: 50px;
+    background-color: mediumseagreen;
+    display: inline-block;
+    margin: 10px;
+    transition: transform 3s ease-in-out;
+
+
+}
+.box15{
+    width: 10px;
+    height: 60px;
+    background-color: mediumseagreen;
+    display: inline-block;
+    margin: 10px;
+    transition: transform 3s ease-in-out;
+
+
+}
+.box21{
+    width: 10px;
+    height: 60px;
+    background-color: blue;
+    display: inline-block;
+    margin: 10px;
+    transition: transform 3s ease-in-out;
+
+}
+.box22{
+    width: 10px;
+    height: 50px;
+    background-color: blue;
+    display: inline-block;
+    margin: 10px;
+    transition: transform 3s ease-in-out;
+
+}
+.box23{
+    width: 10px;
+    height: 40px;
+    background-color: blue;
+    display: inline-block;
+    margin: 10px;
+    transition: transform 3s ease-in-out;
+
+}
+.box24{
+    width: 10px;
+    height: 30px;
+    background-color: blue;
+    display: inline-block;
+    margin: 10px;
+    transition: transform 3s ease-in-out;
+
+}
+.box25{
+    width: 10px;
+    height: 20px;
+    background-color: blue;
+    display: inline-block;
+    margin: 10px;
+    transition: transform 3s ease-in-out;
+
+}
+.box:hover{
+     transform: scaleY(2);
+}
+.boxz{
+    transform: scaleY(0.5);
+}

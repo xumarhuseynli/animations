@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: burlywood;
+}
+
+header {
+    height: 50px;
+    background-color: dodgerblue;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 10%;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.menu li {
+    height: 50px;
+    width: 100px;
+    background-color: dodgerblue;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    position: relative;
+}
+
+.menu li:hover {
+    background-color: rgb(29, 81, 133);
+}
+
+.menu li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+}
+
+.menu li:hover ul {
+    display: block;
+}
+
+.menu li ul li {
+    animation: rotate 0.5s forwards;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotateX(360deg);
+    }
+}

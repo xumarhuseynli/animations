@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: green;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.n{
+    text-align: center;
+    animation-name: text;
+    animation-duration: 3s;
+    animation-iteration-count:infinite ;
+}
+.n1{
+  animation-direction: normal;
+
+}
+.n2{
+    animation-direction: reverse;
+}
+.n3{
+    animation-direction: alternate;
+}
+.n4{
+    animation-direction: alternate-reverse;
+}
+@keyframes text{
+    0%{
+        margin-left: 600px;
+        
+    }
+    100%{
+        margin-left: 0px;
+    }
+}

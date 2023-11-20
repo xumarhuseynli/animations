@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    background-color: blueviolet;
+    animation-name: box;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite ;
+}
+@keyframes box{
+    0%{
+        background-color: red;
+    }
+    25%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: blue;
+    }
+    75%{
+        background-color: green;
+       
+    }
+    100%{
+        background-color: orange;
+    }
+}

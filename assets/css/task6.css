@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+h1{
+    color: green;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+ol li{
+   
+    margin-left: 60px;
+ 
+}
+ol li:hover{
+ transform: scale(2);
+ color: green;
+}
+ol li::marker{
+    animation-name: ol;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+ol li:nth-child(1) ::marker{
+    animation-delay: 0s;
+}
+ol li:nth-child(2) ::marker{
+    animation-delay: 1s;
+}
+ol li:nth-child(3) ::marker{
+    animation-delay:2s;
+}
+ol li:nth-child(4) ::marker{
+    animation-delay: 3s;
+}
+ol li:nth-child(5) ::marker{
+    animation-delay: 4s;
+}
+@keyframes ol{
+    0%{
+        font-size: 18px;
+    }
+    100%{
+        font-size: 40px;
+        color: green;
+    }
+}
